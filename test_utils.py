@@ -1,6 +1,6 @@
 from utils import laengen_rechner
 
-def run_tests():
+def test_converter():
     # Test 1: 1 Meter zu Fuß (Erwartet ca. 3.2808)
     res1 = laengen_rechner(1, "m", "ft")
     assert round(res1, 4) == 3.2808, f"Test 1 fehlgeschlagen: {res1}"
@@ -16,5 +16,4 @@ def run_tests():
     print("Alle Tests in utils erfolgreich bestanden!")
 
 if __name__ == "__main__":
-    run_tests()
-    
+    test_converter()
