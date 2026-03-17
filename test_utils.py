@@ -1,5 +1,7 @@
 """Testet die Utils"""
+
 from utils import laengen_rechner
+
 
 def test_converter():
     """Eingabe der Werte (Zahl und Einheiten)"""
@@ -13,9 +15,12 @@ def test_converter():
 
     # Test 3: Ungültige Einheit
     res3 = laengen_rechner(10, "kg", "m")
-    assert res3 is None, "Test 3 fehlgeschlagen: Sollte None bei falschen Einheiten geben"
+    assert res3 is None, (
+        "Test 3 fehlgeschlagen: Sollte None bei falschen Einheiten geben"
+    )
 
     print("Alle Tests in utils erfolgreich bestanden!")
+
 
 if __name__ == "__main__":
     test_converter()

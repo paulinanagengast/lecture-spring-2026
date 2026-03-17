@@ -1,5 +1,7 @@
 """Ruft die Funktion utils auf"""
+
 from utils import laengen_rechner
+
 
 def main():
     """Rechnet die eingegebenen Werte aus"""
@@ -20,6 +22,7 @@ def main():
 
     except ValueError:
         print("Fehler: Bitte gib eine gültige Zahl ein.")
+
 
 if __name__ == "__main__":
     main()
