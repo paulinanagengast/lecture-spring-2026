@@ -1,5 +1,7 @@
-"""utils"""
+"""Definition der Funktion laengen_rechner"""
+
 def laengen_rechner(wert, von, zu):
+    """Rechnet die eingegebenen Einheiten um"""
     # Umrechnungsfaktoren basierend auf 1 Meter
     einheiten = {
         "m": 1.0,

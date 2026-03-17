@@ -1,6 +1,8 @@
+"""Testet die Utils"""
 from utils import laengen_rechner
 
 def test_converter():
+    """Eingabe der Werte (Zahl und Einheiten)"""
     # Test 1: 1 Meter zu Fuß (Erwartet ca. 3.2808)
     res1 = laengen_rechner(1, "m", "ft")
     assert round(res1, 4) == 3.2808, f"Test 1 fehlgeschlagen: {res1}"

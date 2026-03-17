@@ -1,6 +1,8 @@
+"""Ruft die Funktion utils auf"""
 from utils import laengen_rechner
 
 def main():
+    """Rechnet die eingegebenen Werte aus"""
     print("--- Längen-Umrechner ---")
     try:
         # Benutzereingaben abfragen
