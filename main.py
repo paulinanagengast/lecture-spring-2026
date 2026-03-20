@@ -1,4 +1,4 @@
-"""Ruft die Funktion utils auf"""
+"""Ruft die Funktion laengen_rechner auf und rechnet die Werte um"""
 
 from utils import laengen_rechner
 
