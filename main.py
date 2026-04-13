@@ -9,7 +9,7 @@ def main():
     try:
         # Benutzereingaben abfragen
         wert = float(input("Wert eingeben: "))
-        von = input("Von Einheit (m, ft, in): ").lower().strip()
+        von=input("Von Einheit (m, ft, in): ").lower().strip()
         zu = input("Zu Einheit (m, ft, in): ").lower().strip()
 
         # Funktion aus utils.py aufrufen
